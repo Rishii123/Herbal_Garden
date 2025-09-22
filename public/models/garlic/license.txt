@@ -1,0 +1,11 @@
+Model Information:
+* title:	Garlic
+* source:	https://sketchfab.com/3d-models/garlic-fccb65d701a54ba2b4874ab94c2be911
+* author:	Mantas Talmantas (https://sketchfab.com/mantasT)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Garlic" (https://sketchfab.com/3d-models/garlic-fccb65d701a54ba2b4874ab94c2be911) by Mantas Talmantas (https://sketchfab.com/mantasT) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

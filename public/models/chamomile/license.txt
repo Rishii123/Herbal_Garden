@@ -1,0 +1,11 @@
+Model Information:
+* title:	Chamomile
+* source:	https://sketchfab.com/3d-models/chamomile-31df46bbac484e3aa549032d8f321b6d
+* author:	Cosmic_dust (https://sketchfab.com/Cosmic_dust)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Chamomile" (https://sketchfab.com/3d-models/chamomile-31df46bbac484e3aa549032d8f321b6d) by Cosmic_dust (https://sketchfab.com/Cosmic_dust) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

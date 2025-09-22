@@ -1,0 +1,11 @@
+Model Information:
+* title:	Turmeric
+* source:	https://sketchfab.com/3d-models/turmeric-7b7195c2971243e7b19dcc11b8ec26fc
+* author:	anuch (https://sketchfab.com/anuch1)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Turmeric" (https://sketchfab.com/3d-models/turmeric-7b7195c2971243e7b19dcc11b8ec26fc) by anuch (https://sketchfab.com/anuch1) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+
+    
+
+    <form action="/login" method="post" >
+    <h1>Login</h1>
+        <input placeholder="Username" name="name" type="text" value="">
+        <br>
+        <input placeholder="Password" name="password" type="password" value="">
+        <br>
+        <input class="sub" type="submit">
+     <h3>Dont have a account? <a href="/signup">Register</a></h3>
+     <br>
+    {{#if errorMessage}}
+        <p style="font-weight: bolder; color:red">{{errorMessage}}</p>
+    {{/if}}
+    {{#if successMessage}}
+        <p style="font-weight: bolder; color:green">{{successMessage}}</p>
+    {{/if}}
+    </form>
+
+
+    
+</body>
+</html>

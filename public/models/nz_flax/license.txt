@@ -1,0 +1,11 @@
+Model Information:
+* title:	NZ Flax
+* source:	https://sketchfab.com/3d-models/nz-flax-10ec8061ccc04a9a92760ed1fff3d7eb
+* author:	toAflame (https://sketchfab.com/toAflame)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "NZ Flax" (https://sketchfab.com/3d-models/nz-flax-10ec8061ccc04a9a92760ed1fff3d7eb) by toAflame (https://sketchfab.com/toAflame) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

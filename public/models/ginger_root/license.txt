@@ -1,0 +1,11 @@
+Model Information:
+* title:	Ginger Root
+* source:	https://sketchfab.com/3d-models/ginger-root-14d7deb215f84f6ea2c10a9da12e60fd
+* author:	Paweł Somogyi (https://sketchfab.com/Papheoo)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Ginger Root" (https://sketchfab.com/3d-models/ginger-root-14d7deb215f84f6ea2c10a9da12e60fd) by Paweł Somogyi (https://sketchfab.com/Papheoo) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

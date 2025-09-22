@@ -1,0 +1,87 @@
+.carousel-inner {
+  padding: 1em;
+}
+
+.card {
+  margin: 0 .5em;
+  box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
+  border: none;
+}
+.no-bookmarks {
+  text-align: center;
+  margin-top: 50px;
+  margin-left: 450px;
+  font-size: 1.5em;
+  color: #555;
+}
+.btn-danger {
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-danger:hover {
+  background-color: #c82333;
+}
+
+.bookmarks-container{
+  padding-left: 40px;
+  padding-right: 40px;
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  padding-bottom: 100px;
+
+}
+.go-home-btn {
+  display: inline-block;
+  margin: 10px;
+  padding: 10px 14px;
+  background-color: #046512;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: larger;
+}
+
+.go-home-btn:hover {
+  background-color: #12ae4e;
+}
+
+
+.plant-card img{
+ 
+  height: 200px;
+  margin-bottom: 10px;
+}
+.plant-card{
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  text-align: center;
+  height: 400px;
+  width: 30%;
+  background-color: white;
+}
+.card .img-wrapper {
+  max-width: 100%;
+  height: 13em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  width: 100%;           
+  height: 100%;       
+  object-fit: cover;    
+}
+
+.carousel-item {
+  transition: transform 1.5s ease-in-out;
+}

@@ -1,0 +1,11 @@
+Model Information:
+* title:	Cinnamon Stick
+* source:	https://sketchfab.com/3d-models/cinnamon-stick-58a41ea6266c4d32a283dacf0c159ad8
+* author:	Haireena (https://sketchfab.com/haireena)
+
+Model License:
+* license type:	CC-BY-NC-SA-4.0 (http://creativecommons.org/licenses/by-nc-sa/4.0/)
+* requirements:	Author must be credited. No commercial use. Modified versions must have the same license.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Cinnamon Stick" (https://sketchfab.com/3d-models/cinnamon-stick-58a41ea6266c4d32a283dacf0c159ad8) by Haireena (https://sketchfab.com/haireena) licensed under CC-BY-NC-SA-4.0 (http://creativecommons.org/licenses/by-nc-sa/4.0/)

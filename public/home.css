@@ -1,0 +1,348 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', Arial, sans-serif; 
+    background-color: #000000;
+    color: #333;
+    scroll-behavior: smooth;
+}
+.content{
+    width: 100%;
+    overflow: auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgb(2,68,0);
+background: linear-gradient(163deg, rgba(2,68,0,1) 16%, rgba(14,255,0,1) 53%, rgba(108,255,0,1) 100%, rgba(255,255,255,1) 100%); /* Darker shade for more contrast */
+    padding: 10px 10px;
+    color: white;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    font-size: 3.2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+}
+
+nav ul li {
+    cursor: pointer;
+    font-size: 10px;
+    transition: color 0.3s;
+    color: black;
+    font-size: 1.3rem;
+    font-weight: 800;
+}
+
+nav ul li:hover {
+    color: #ffeb3b;
+}
+
+
+.search-bar {
+    display: flex;
+    gap: 10px;
+}
+
+.search-bar input {
+    padding: 10px;
+    border-radius: 25px;
+    border: 1px solid #ccc;
+    width: 250px;
+}
+
+.search-bar button {
+    padding: 10px 16px;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-weight: bold;
+    color: #333;
+}
+
+.cart {
+    font-size: 1.4rem;
+    color: #fff;
+}
+
+.main-container {
+    display: flex;
+    gap: 20px;
+    padding: 1rem;
+    background-color: #000000;
+}
+
+
+.sidebar {
+    width: 220px;
+    background-color: #f9fafb;
+    padding: 1.5rem;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+}
+
+.sidebar ul {
+    list-style: none;
+}
+
+.sidebar ul li {
+    margin: 10px 0;
+    cursor: pointer;
+    font-size: 1.2rem;
+    padding: 12px;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+    color: #333;
+}
+
+.sidebar ul li:hover {
+    background-color: #e0f7fa;
+    color: #00695c;
+}
+
+
+
+.product-categories {
+    padding: 3rem 0;
+}
+
+.product-categories h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 2.5rem;
+    color: #2e7d32;
+}
+
+.categories {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 30px; 
+    justify-items: center; 
+}
+.categories-new {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 30px;
+    justify-items: center;
+}
+
+.category-card {
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 1px 6px 10px rgb(255, 255, 255);
+    text-align: center;
+    padding: 1.5rem;
+    transition: transform 0.3s ease;
+    height: 300px;
+    width: 350px;
+}
+
+.category-card:hover {
+    transform: translateY(-8px);
+}
+
+.category-card img {
+    width: 180px;
+    height: 180px;
+    margin-bottom: 1rem;
+    border-radius: 50%;
+}
+.category-card a{
+    text-decoration: none;
+}
+.category-card p {
+    font-size: 1.8rem;
+    margin-bottom: 0.5rem;
+    color: #000000;
+    text-decoration: none;
+}
+
+.category-card span {
+    font-size: 1.4rem;
+    color: #388e3c;
+}
+
+
+footer {
+    background: rgb(2,68,0);
+    background: linear-gradient(163deg, rgba(2,68,0,1) 16%, rgba(14,255,0,1) 53%, rgba(108,255,0,1) 100%, rgba(255,255,255,1) 100%);
+    color: white;
+    text-align: center;
+    padding: 1.5rem; 
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    box-shadow: 0 -4px 12px rgba(0, 0, 0, 0.1);
+    
+}
+
+footer p {
+    font-size: 1rem;
+}
+
+
+.plant-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card {
+    border: 2px solid #ccc;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 10px;
+    transition: box-shadow 0.3s ease;
+}
+
+.card:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+.category-card {
+    position: relative; 
+    
+  }
+  
+  .bookmark-btn {
+    position: absolute;
+    top: 10px;   
+    right: 10px;
+    background-color: transparent;
+    border: none;
+  }
+  
+  
+#plant-details {
+    padding: 20px;
+}
+
+
+.side-menu {
+    width: 260px;
+    background-color: #31d218;
+    border-right: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.menu-categories {
+    list-style: none;
+    padding: 0;
+}
+
+.menu-item > a {
+    display: block;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 12px 15px;
+    background-color: #000000;
+    border-radius: 6px;
+    margin-bottom: 12px;
+    cursor: pointer;
+}
+
+.menu-item > a:hover {
+    background-color: #c5e1a5;
+    color: #000000;
+}
+
+.sub-menu {
+    list-style: none;
+    padding-left: 20px;
+    margin-top: 8px;
+    
+}
+
+.sub-menu li a {
+    color: #ffffff;
+    font-size: 15px;
+    text-decoration: none;
+    padding: 8px;
+    display: block;
+    font-weight: 900;
+    font-style: italic;
+}
+
+.sub-menu li a:hover {
+    background-color: #e8f5e9;
+    color: black;
+    border-radius: 6px;
+}
+
+.sub-menu a.active {
+    font-weight: bold;
+    color: #2e7d32;
+}
+.virtual-head{
+    background: rgb(2,68,0);
+background: linear-gradient(163deg, rgba(2,68,0,1) 16%, rgba(14,255,0,1) 53%, rgba(108,255,0,1) 100%, rgba(255,255,255,1) 100%);
+    border-radius: 40px;
+    height: 60px;
+    width: 400px;
+    margin: auto;
+    font-size: 26px;
+    padding-top: 10px;
+    text-align: center;
+    margin-bottom: 1rem;
+    color: white;
+    font-weight: bolder;
+    font-style: italic;
+}
+
+.virtual-container{
+    background: rgb(2,68,0);
+background: linear-gradient(163deg, rgba(2,68,0,1) 16%, rgba(14,255,0,1) 53%, rgba(108,255,0,1) 100%, rgba(255,255,255,1) 100%);
+    height: 250px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 25px;
+    overflow: hidden;
+    
+}
+
+.tour{
+    background-color: #c5e1a5;
+    width: 200px;
+    height: 180px;
+    max-width: 200px;
+    
+
+}
+
+.tour-btn{
+    height: 40px;
+    width: 160px;
+    border-radius: 20px;
+    background-color: white;
+    margin: auto;
+    position: relative;
+    left: 10px;
+    top: 10px;
+}
+
+.tour img{
+    object-fit: cover;
+    height: 180px;
+    width: 200px;
+}
+.tour-btn a{
+    text-decoration: none;
+    color: black;
+}

@@ -1,0 +1,11 @@
+Model Information:
+* title:	Chili Pepper
+* source:	https://sketchfab.com/3d-models/chili-pepper-9515e14adbe14c5397cbea0b77cbd7bb
+* author:	ReddenWang (https://sketchfab.com/areddenwang)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Chili Pepper" (https://sketchfab.com/3d-models/chili-pepper-9515e14adbe14c5397cbea0b77cbd7bb) by ReddenWang (https://sketchfab.com/areddenwang) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

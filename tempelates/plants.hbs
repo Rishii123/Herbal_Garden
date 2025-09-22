@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{plant.name}} - Virtual Herbal Garden</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/loaders/GLTFLoader.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/controls/OrbitControls.js"></script>
+
+     <style>
+    body {
+        font-family: 'Arial', sans-serif;
+        background-color: #058500;
+        color: #333333;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJqUpXXMxEPj3jPKgurajogvT_3cP-5HUa_g&s");
+        background-size: cover
+    }
+
+    h1 {
+        text-align: center;
+        color: rgb(1, 43, 1);
+        font-size: 4rem;
+        margin-bottom: 20px;
+    }
+
+    #container {
+        width: 90%;
+        max-width: 1200px;
+        margin: 10px auto;
+        padding: 20px;
+        background-color: #fff;
+        box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+        border-radius: 8px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .plant-info {
+        flex: 1;
+        margin-right: 10px;
+    }
+    
+    .plant-info img {
+        height: 500px;
+        width: 500px;
+        border-radius: 20px;
+        box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.6);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        margin-top: 40px;
+        margin-left: 40px;
+        margin-bottom: 20px;
+    }
+
+    .plant-info img:hover {
+        transform: scale(1.05);
+        box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.3);
+    }
+
+    .details-container {
+        display: flex;
+        justify-content: flex-start;
+        width: 100%;
+    }
+
+    .model-container {
+        width: 500px; 
+        height: 500px;
+        margin-top: 20px; 
+        margin-top: 40px;
+        margin-left: 40px;
+        margin-bottom: 20px;
+        
+    }
+
+    .text-details {
+        flex: 1;
+        margin-left: 40px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    .btns{
+        display: flex;
+        margin-top: 10px;
+        justify-content: center;
+        gap: 40px;
+
+    }
+    .btns button {
+        padding: 12px 20px;
+        font-size: 16px;
+        border: none;
+        border-radius: 5px;
+        background-color: #0b5f2b;
+        color: white;
+        cursor: pointer;
+        
+    }
+    .btns button:hover {
+        background-color: #27c13e;
+    }
+    .text-details p, .text-details ul {
+        font-size: 1.1rem;
+        line-height: 1.6;
+    }
+     .go-home-btn {
+        display: inline-block;
+        margin: 10px;
+        padding: 8px 12px;
+        background-color: #0b5f2b;
+        color: white;
+        text-decoration: none;
+        border-radius: 5px;
+        cursor: pointer;
+            position: absolute;
+            top: 40px;
+        right: 55px;
+}
+
+.go-home-btn:hover {
+  background-color: #27c13e;
+}
+.video-section{
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.video-section h2{
+    text-align: center;
+}
+
+</style>
+
+</head>
+<body>
+   <h1>{{plant.name}}</h1>
+    <a href="/home" class="go-home-btn">Go to Home</a>
+    <div id="container">
+        <div class="plant-info">
+            <img src="{{plant.imageUrl}}" alt="{{plant.name}}">
+            <div id="model-container" class="model-container"></div>
+        </div>
+        <div class="text-details">
+            
+            <p><strong>Botanical Name:</strong> {{plant.botanicalName}}</p>
+            
+       
+            <p><strong>Common Names:</strong> 
+                {{#each plant.commonNames}}
+                    {{this}}{{#unless @last}}, {{/unless}}
+                {{/each}}
+            </p>
+            
+            <p><strong>Category:</strong> {{plant.category}}</p>
+            
+            
+            <p><strong>Native Region:</strong> {{plant.habitat.nativeRegion}}</p>
+            <p><strong>Soil:</strong> {{plant.habitat.growingConditions.soil}}</p>
+            <p><strong>Sunlight:</strong> {{plant.habitat.growingConditions.sunlight}}</p>
+            <p><strong>Water:</strong> {{plant.habitat.growingConditions.water}}</p>
+            
+           
+            <p style="text-decoration: underline;"><strong>Medicinal Uses:</strong></p>
+            <ul>
+                {{#each plant.medicinalUses}}
+                    <li><strong>{{this.use}}:</strong> {{this.description}}</li>
+                {{/each}}
+            </ul>
+            
+            
+            <p style="text-decoration: underline;"><strong>Methods of Cultivation:</strong></p>
+            <p><strong>Propagation:</strong> {{plant.methodsOfCultivation.propagation}}</p>
+            <p><strong>Planting Instructions:</strong> {{plant.methodsOfCultivation.planting.instructions}}</p>
+            <p><strong>Spacing:</strong> {{plant.methodsOfCultivation.planting.spacing}}</p>
+            <p><strong>Watering:</strong> {{plant.methodsOfCultivation.watering}}</p>
+            <p><strong>Fertilization:</strong> {{plant.methodsOfCultivation.fertilization}}</p>
+            <p><strong>Pruning:</strong> {{plant.methodsOfCultivation.pruning}}</p>
+            <p><strong>Pests and Diseases:</strong> {{plant.methodsOfCultivation.pestsAndDiseases}}</p>
+        </div>
+    </div>
+    
+    <div class="btns">
+        <button id="listen-button">Listen to details</button>
+    <button id="pause-button">Pause</button>
+    <button id="resume-button">Resume</button>
+    </div>
+    
+  
+
+<div class="video-section">
+    <h2>Watch Our Video</h2>
+    <video controls width="400px" height="400px">
+        <source src="/tulsivideo.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+</div>
+
+
+  <script>
+    const container = document.getElementById('model-container');
+    
+    const scene = new THREE.Scene();
+    
+ 
+    const camera = new THREE.PerspectiveCamera(75, container.clientWidth / container.clientHeight, 0.1, 1000);
+    camera.position.set(0, 1, 5);  
+
+    const renderer = new THREE.WebGLRenderer({ antialias: true });
+    renderer.setSize(container.clientWidth, container.clientHeight);
+    container.appendChild(renderer.domElement);
+
+    // Light setup
+    const ambientLight = new THREE.AmbientLight(0xffffff, 0.6);
+    scene.add(ambientLight);
+
+    const directionalLight = new THREE.DirectionalLight(0xffffff, 1);
+    directionalLight.position.set(10, 10, 10).normalize();
+    scene.add(directionalLight);
+
+    // GLTF model loader
+    const loader = new THREE.GLTFLoader();
+    const modelUrl = '{{plant.modelUrl}}'; 
+
+    loader.load(modelUrl, function (gltf) {
+        const model = gltf.scene;
+        model.scale.set(1.5, 1.5, 1.5); 
+        scene.add(model);
+
+        // Animate model
+        const animate = function () {
+            requestAnimationFrame(animate);
+            model.rotation.y += 0.01; 
+            renderer.render(scene, camera);
+        };
+        animate();
+    }, undefined, function (error) {
+        console.error('Error loading model:', error);
+    });
+
+    // Orbit controls for camera
+    const controls = new THREE.OrbitControls(camera, renderer.domElement);
+    controls.enableDamping = true;
+
+    
+    window.addEventListener('resize', () => {
+        const width = container.clientWidth;
+        const height = container.clientHeight;
+        renderer.setSize(width, height);
+        camera.aspect = width / height;
+        camera.updateProjectionMatrix();
+    });
+</script>
+
+<script>
+const listenButton = document.getElementById('listen-button');
+const pauseButton = document.getElementById('pause-button');
+const resumeButton = document.getElementById('resume-button');
+const textDetails = document.querySelector('.text-details');
+
+
+listenButton.addEventListener('click', () => {
+
+  {{!-- const text = textDetails.innerText; --}}
+
+function generateExplanation(plantData) {
+  const explanation = `The ${plantData.name} is a ${plantData.category} that is native to ${plantData.habitat.nativeRegion}. It is known for its ${plantData.medicinalUses[0].use} properties, which make it a popular ingredient in many traditional medicines. The plant is also used in cooking and is a popular ingredient in many dishes. It is a ${plantData.methodsOfCultivation.propagation} plant that requires ${plantData.methodsOfCultivation.planting.instructions} and ${plantData.methodsOfCultivation.watering} to grow. It is a relatively low-maintenance plant that is easy to care for and can thrive in a variety of environments.`;
+  return explanation;
+}
+
+const plantData = {
+  name:"{{plant.name}} ",
+  category: '{{plant.category}}',
+  habitat: {
+    nativeRegion: '{{plant.habitat.nativeRegion}}'
+  },
+ 
+medicinalUses: [
+  {
+    use: '{{plant.medicinalUses.0.use}}'
+  }
+],
+  methodsOfCultivation: {
+    propagation: '{{plant.methodsOfCultivation.propagation}}',
+    planting: {
+      instructions: '{{plant.methodsOfCultivation.planting.instructions}}'
+    },
+    watering: '{{plant.methodsOfCultivation.watering}}'
+  }
+};
+
+const explanation = generateExplanation(plantData);
+const utterance = new SpeechSynthesisUtterance(explanation);
+  
+  {{!-- const utterance = new SpeechSynthesisUtterance(text); --}}
+
+
+  utterance.voice = window.speechSynthesis.getVoices()[0];
+  utterance.lang = 'en-IN';
+
+
+  utterance.rate = 0.7;
+  utterance.pitch = 1;
+
+  window.speechSynthesis.speak(utterance);
+  pauseButton.addEventListener('click', () => {
+  window.speechSynthesis.pause();
+});
+
+resumeButton.addEventListener('click', () => {
+  window.speechSynthesis.resume();
+});
+});
+</script>
+</body>
+</html>

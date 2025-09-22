@@ -1,0 +1,11 @@
+Model Information:
+* title:	Moringa
+* source:	https://sketchfab.com/3d-models/moringa-8807f88d6c9f45ba8c90cb6a7a0d2956
+* author:	musimeris (https://sketchfab.com/musimeris)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Moringa" (https://sketchfab.com/3d-models/moringa-8807f88d6c9f45ba8c90cb6a7a0d2956) by musimeris (https://sketchfab.com/musimeris) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

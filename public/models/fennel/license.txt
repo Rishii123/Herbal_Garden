@@ -1,0 +1,11 @@
+Model Information:
+* title:	Fennel
+* source:	https://sketchfab.com/3d-models/fennel-31f56837560f4343a6ba8e1cab1a4ec7
+* author:	Moshe Caine (https://sketchfab.com/mosheca)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Fennel" (https://sketchfab.com/3d-models/fennel-31f56837560f4343a6ba8e1cab1a4ec7) by Moshe Caine (https://sketchfab.com/mosheca) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

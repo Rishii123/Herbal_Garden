@@ -1,0 +1,11 @@
+Model Information:
+* title:	Elderberry
+* source:	https://sketchfab.com/3d-models/elderberry-880aa10b511a4080a0d1360faf1056fe
+* author:	gjm0001 (https://sketchfab.com/gjm0001)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Elderberry" (https://sketchfab.com/3d-models/elderberry-880aa10b511a4080a0d1360faf1056fe) by gjm0001 (https://sketchfab.com/gjm0001) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

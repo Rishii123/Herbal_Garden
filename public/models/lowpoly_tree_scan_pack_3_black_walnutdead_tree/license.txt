@@ -1,0 +1,11 @@
+Model Information:
+* title:	Lowpoly Tree Scan Pack 3: Black Walnut+Dead Tree
+* source:	https://sketchfab.com/3d-models/lowpoly-tree-scan-pack-3-black-walnutdead-tree-6487231452e540e19cf8c572c8c07715
+* author:	EvanLegrand (https://sketchfab.com/evan4129)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Lowpoly Tree Scan Pack 3: Black Walnut+Dead Tree" (https://sketchfab.com/3d-models/lowpoly-tree-scan-pack-3-black-walnutdead-tree-6487231452e540e19cf8c572c8c07715) by EvanLegrand (https://sketchfab.com/evan4129) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

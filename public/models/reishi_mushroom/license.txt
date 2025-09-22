@@ -1,0 +1,11 @@
+Model Information:
+* title:	Reishi Mushroom
+* source:	https://sketchfab.com/3d-models/reishi-mushroom-ab74ec90a0ed41a99b45d67ebc1ee3d3
+* author:	RISD Nature Lab (https://sketchfab.com/RISDNaturelab)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Reishi Mushroom" (https://sketchfab.com/3d-models/reishi-mushroom-ab74ec90a0ed41a99b45d67ebc1ee3d3) by RISD Nature Lab (https://sketchfab.com/RISDNaturelab) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
