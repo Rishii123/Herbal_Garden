@@ -28,7 +28,7 @@ The project uses **Node.js**, **Express**, **MongoDB**, **Handlebars (hbs)** for
 ### Home Page
 ![Home Page](screenshots/home.png)
 <br>
-screenshots/home_02.png
+![.](screenshots/home_02.png)
 
 ### Virtual Tour Example
 ![Virtual Tour](screenshots/3D_model.png)
