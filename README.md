@@ -27,7 +27,7 @@ The project uses **Node.js**, **Express**, **MongoDB**, **Handlebars (hbs)** for
 
 ### Home Page
 ![Home Page](screenshots/home.png)
-(screenshot/home02.png)
+(screenshot/home 02.png)
 
 ### Virtual Tour Example
 ![Virtual Tour](screenshots/3D model.png)
@@ -38,11 +38,8 @@ The project uses **Node.js**, **Express**, **MongoDB**, **Handlebars (hbs)** for
 ### Bookmarks & Notes
 ![Bookmarks](screenshots/bookmark.png)
 
-> _Add your screenshots to a `screenshots/` folder in your repository and update the paths above as needed._
-
 ## 🛠️ Installation
 
 1. **Clone the repository:**
    ```sh
-   git clone https://github.com/yourusername/virtual-herbal-garden.git
-   cd virtual-herbal-garden
+   git clone  https://github.com/Rishii123/Herbal_Garden.git
