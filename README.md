@@ -27,10 +27,11 @@ The project uses **Node.js**, **Express**, **MongoDB**, **Handlebars (hbs)** for
 
 ### Home Page
 ![Home Page](screenshots/home.png)
-(screenshot/home 02.png)
+<br>
+screenshots/home_02.png
 
 ### Virtual Tour Example
-![Virtual Tour](screenshots/3D model.png)
+![Virtual Tour](screenshots/3D_model.png)
 
 ### Plant Details
 ![Plant Details](screenshots/plant_details.png)
