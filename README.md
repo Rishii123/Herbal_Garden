@@ -26,17 +26,17 @@ The project uses **Node.js**, **Express**, **MongoDB**, **Handlebars (hbs)** for
 ## 📸 Screenshots
 
 ### Home Page
-![Home Page](screenshot/home.png)
+![Home Page](screenshots/home.png)
 (screenshot/home02.png)
 
 ### Virtual Tour Example
-![Virtual Tour](screenshot/3D model.png)
+![Virtual Tour](screenshots/3D model.png)
 
 ### Plant Details
-![Plant Details](screenshot/plant_details.png)
+![Plant Details](screenshots/plant_details.png)
 
 ### Bookmarks & Notes
-![Bookmarks](screenshot/bookmark.png)
+![Bookmarks](screenshots/bookmark.png)
 
 > _Add your screenshots to a `screenshots/` folder in your repository and update the paths above as needed._
 
