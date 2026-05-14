@@ -20,7 +20,7 @@ The project uses **Node.js**, **Express**, **MongoDB**, **Handlebars (hbs)** for
 - Interactive 3D virtual tours with clickable plant models
 - Plant detail pages with images, 3D models, and medicinal info
 - Bookmark and notes functionality for registered users
-- Responsive design with custom CSS and Bootstrap
+- Responsive design with custom CSS 
 - Contact form for user feedback
 
 ## 📸 Screenshots
